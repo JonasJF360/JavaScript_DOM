@@ -2,6 +2,7 @@ function imprimir(e) {
     console.log(e)
 }
 
+
 let elementoH3 = document.querySelector('#titulo > i > u')
 elementoH3.style.color = 'red'
 
@@ -17,4 +18,10 @@ imprimir(elementoDivNoticia.innerHTML)
 imprimir(elementoDivNoticia.outerHTML)
 
 // atributos
+const imagem = document.querySelector('#img-noticias')
+
+imagem.alt = `Imagem news 01`
+imagem.src = `../imagens/news_01.png`
+document.querySelector('#img-titulo').innerText = imagem.alt
+
 // operações no console

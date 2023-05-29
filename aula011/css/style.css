@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+   border: 1px solid lightgray;
+   margin: 20px;
+   padding: 20px;
+}
+
+p{
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
